@@ -1,9 +1,9 @@
 # Datathon-2019-Erhman
 ---
-#### A deep learning model to optimize California school districts' administrative resource allocation in order to maximize academic achievement. 
+#### A deep learning model which optimizes California school districts' financial resource allocations toward different personnel categories for the purpose of academic achievement maximization. 
 ---
 
-<b>Objective:</b> Raise state-wide school achievement levels (as defined by the percent of students meeting test score benchmarks) to minimize discrepancies between districts. We gathered data on district achievement levels and staffing distributions (teacher/staff support/administrators/counselors/librarians/student support) and ran them through a neural network to predict staffing's impact on performance. We then ran an optimization algorithm on the model to find the ideal staffing levels for each district (based on their available budgets and current achievement levels) that maximizes district academic performance.
+<b>Solution:</b> Our objective was to raise state-wide school achievement levels (as defined by the percent of students meeting ELA and math test score benchmarks) to maximize education proficiencies within each district in California. First, we gathered data on district achievement levels and staffing distributions (teacher/staff support/administrators/counselors/librarians/student support) through scraping multiple public websites and a search engine. Then, we ran them through a neural network to create a model which can predict student performance based on staffing. We then ran a BFGS optimization algorithm on the model to find the optimal staffing distribution for each district (based on their available budgets and current achievement levels) to inform new district-wide budgeting.
 
 ### Files:
 
