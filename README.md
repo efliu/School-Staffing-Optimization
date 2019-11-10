@@ -1,9 +1,9 @@
 # Datathon-2019-Erhman
 ---
-#### A deep learning model which optimizes California school districts' financial resource allocations toward different personnel categories for the purpose of academic achievement maximization. 
+#### A deep learning model which optimizes California public school districts' financial resource allocations toward different personnel categories for the purpose of academic achievement maximization. 
 ---
 
-<b>Solution:</b> Our objective was to raise state-wide school achievement levels (as defined by the percent of students meeting ELA and math test score benchmarks) to maximize education proficiencies within each district in California. First, we gathered data on district achievement levels and staffing distributions (teacher/staff support/administrators/counselors/librarians/student support) through scraping multiple public websites and a search engine. Then, we ran them through a neural network to create a model which can predict student performance based on staffing. We then ran a BFGS optimization algorithm on the model to find the optimal staffing distribution for each district (based on their available budgets and current achievement levels) to inform new district-wide budgeting.
+<b>Summary:</b> Our objective was to raise state-wide school achievement levels (as defined by the percent of students meeting ELA and math benchmarks) via data-driven staff funding in the California public school system. First, we gathered data on current district achievement levels and staffing distributions (teacher/staff support/administrators/counselors/librarians/student support) by scraping multiple public websites and search engines. Then, we ran the datasets through a MLP neural network to generate a model that can predict student performance based on staffing. We then ran a BFGS optimization algorithm on the model to find the optimal staffing distribution for each district (based on their available budgets and current achievement levels). This work strives to guide public school district committees in optimizing decreasing wage expenses to produce positive educational impact. Considerations for the future include additional data collection and model testing.
 
 <b>Link to our brief pitch deck:</b> https://docs.google.com/presentation/d/1oVsAik8fJ3zPOwUymh7Yt-7yNIbdRXyawmYxzazF4YQ/edit?usp=sharing
 
