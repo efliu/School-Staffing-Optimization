@@ -1,4 +1,4 @@
-# Datathon-2019-Erhman
+# School Staffing Optimization
 ---
 #### A deep learning model which optimizes California public school districts' financial resource allocations toward different personnel categories for the purpose of academic achievement maximization. 
 ---
